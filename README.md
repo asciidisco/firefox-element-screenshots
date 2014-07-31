@@ -1,3 +1,5 @@
+# firefox-element-screenshots
+
 > Screenshots single elements from Webpages
 
 ## Setup
@@ -6,7 +8,8 @@
 
 ## Configuration
 
-This is 
+This is the configuration that is on the top of the `screenshotElements.js` file.
+Modify this for your needs.
 
 ```js
 // Your firefox binary (this is the default on OSX)
