@@ -9,7 +9,7 @@
 ## Configuration
 
 This is the configuration that is on the top of the `screenshotElements.js` file.
-Modify this for your needs.
+Modify this.
 
 ```js
 // Your firefox binary (this is the default on OSX)
