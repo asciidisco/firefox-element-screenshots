@@ -1,0 +1,15 @@
+{
+  "name": "firefox-element-screenshots",
+  "version": "0.0.1",
+  "description": "Screenshots single elements from Webpages using Firefox",
+  "main": "screenshotElements.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Golasch (@asciidisco)",
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "2.2.8",
+    "marionette-client": "1.1.8"
+  }
+}
