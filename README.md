@@ -8,23 +8,29 @@
 
 ## Configuration
 
+You can configure the pages and elements you want to screenshots within
+`screenshots.config.js`.
+
+Each page needs an object within the export of the module which looks like this:
+
+```js
+{
+  url: 'http://drublic.de/',
+  elements: {
+    'navigation': '.site-navigation'
+  }
+}
+```
+
 This is the configuration that is on the top of the `screenshotElements.js` file.
-Modify this.
+Please modify it if needed.
 
 ```js
 // Your firefox binary (this is the default on OSX)
 var firefoxBinary = '/Applications/Firefox.app/Contents/MacOS/firefox-bin';
 
-// URL you want to open
-var urlToCrawl = 'https://www.qivicon.com/';
-
-// Elements
-// Key will be the filename (.png ext is added automatically)
-// Value is the selector for that element
-var elementsToCapture = {
-  'siteSearch': '#site-search',
-  'thatPartnerBar': '.partner-bar'
-};
+// Folder for screenshots
+var screenshotFolder = 'shots';
 ```
 
 ## Run
