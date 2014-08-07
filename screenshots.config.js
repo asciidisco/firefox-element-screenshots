@@ -1,4 +1,4 @@
-'use stict';
+'use strict';
 
 /**
  * Configuration for screenshots to take
